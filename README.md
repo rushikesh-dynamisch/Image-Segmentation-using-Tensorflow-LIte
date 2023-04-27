@@ -7,15 +7,15 @@ present in the model classes(model classes are the list of items ex.apple,elepha
 we can add the opacity to see the difference.
 <br/>DeepLab Model:
 <br/>Below code is to load the deeplab model() //model path in the project IMAGESEGMENTATION/assets
-   loadModel = () => {
-    tflite.loadModel({
-      model: 'deeplabv3_257.tflite',// required
-      labels: 'deeplabv3_257.txt',  // required
-      numThreads: 1,                              // defaults to 1  
-    },
-    (err, res) => {
-      if(err)
-        console.log(err);
-      else
-        console.log(res);
+  <br/> loadModel = () => { <br/>
+    tflite.loadModel({    <br/>
+      model: 'deeplabv3_257.tflite',// required<br/>
+      labels: 'deeplabv3_257.txt',  // required <br/>
+      numThreads: 1,                              // defaults to 1  <br/>
+    },  <br/>
+    (err, res) => {  <br/>
+      if(err)        <br/>
+        console.log(err); <br/>
+      else                <br/>
+        console.log(res); <br/>
     });
