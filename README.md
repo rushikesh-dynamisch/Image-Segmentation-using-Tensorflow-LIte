@@ -7,9 +7,9 @@ present in the model classes(model classes are the list of items ex.apple,elepha
 we can add the opacity to see the difference.
 
 <h2>Configuration:<h2/> <br>
-1)Install-- npm add react-native-image-picker //picking images from gallary Or from camera
+Install-- npm add react-native-image-picker //picking images from gallary Or from camera
 
-2)Install-- npm i tflite-react-native Follow its documentation* link: https://www.npmjs.com/package/tflite-react-native
+Install-- npm i tflite-react-native Follow its documentation* link: https://www.npmjs.com/package/tflite-react-native
 <br/>
 <br/>DeepLab Model:
 <br/>Below code is to load the deeplab model() //model path in the project IMAGESEGMENTATION/assets
