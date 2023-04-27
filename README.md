@@ -10,7 +10,7 @@ Configuration:<br>
 1)Install-- npm add react-native-image-picker //picking images from gallary Or from camera
 
 2)Install-- npm i tflite-react-native Follow its documentation* link: https://www.npmjs.com/package/tflite-react-native
-3)refer  --https://github.com/shaqian/tflite-react-native#Deeplab
+<br/>3)refer  --https://github.com/shaqian/tflite-react-native#Deeplab
 <br/>
 <br/>DeepLab Model:
 <br/>Below code is to load the deeplab model() //model path in the project IMAGESEGMENTATION/assets
